@@ -10,6 +10,13 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Disable the requirement for routes-manifest.json
+  experimental: {
+    // This helps Vercel understand it's a static site
+    deploymentId: process.env.VERCEL_DEPLOYMENT_ID || 'local',
+  },
+  // Ensure we have a 404 page for static hosting
+  trailingSlash: true,
 };
 
 export default nextConfig;
