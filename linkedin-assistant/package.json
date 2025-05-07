@@ -1,0 +1,28 @@
+{
+  "name": "linkedin-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.3.2",
+    "framer-motion": "^10.16.4",
+    "react-intersection-observer": "^9.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "aos": "^2.3.4",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "@eslint/eslintrc": "^3"
+  }
+}
