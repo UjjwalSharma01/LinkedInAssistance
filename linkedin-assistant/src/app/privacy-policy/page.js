@@ -85,9 +85,9 @@ export default function PrivacyPolicy() {
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-300">
               <li><strong>Storage</strong>: To save your preferences and authentication information</li>
-              <li><strong>ActiveTab</strong>: To interact with the current LinkedIn page you're viewing</li>
+              <li><strong>ActiveTab</strong>: To interact with the current LinkedIn page you&apos;re viewing</li>
               <li><strong>Scripting</strong>: To inject necessary functionality into LinkedIn pages</li>
-              <li><strong>Tabs</strong>: To detect when you're browsing LinkedIn</li>
+              <li><strong>Tabs</strong>: To detect when you&apos;re browsing LinkedIn</li>
             </ul>
             <p className="text-gray-300">
               Our extension only activates on LinkedIn domains (https://www.linkedin.com/*) as specified in the host permissions.
@@ -101,7 +101,7 @@ export default function PrivacyPolicy() {
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-300">
               <li>Authentication data is secured using Firebase Authentication</li>
-              <li>Personal settings are stored in your browser's local storage</li>
+              <li>Personal settings are stored in your browser&apos;s local storage</li>
               <li>Content data is processed temporarily and not stored permanently</li>
               <li>All communications with our servers are encrypted using HTTPS</li>
             </ul>
@@ -173,7 +173,7 @@ export default function PrivacyPolicy() {
           <div className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-white">Changes to This Privacy Policy</h2>
             <p className="text-gray-300">
-              We may update our Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy Policy periodically for any changes.
+              We may update our Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any changes by posting the new Privacy Policy on this page and updating the &quot;Last Updated&quot; date. You are advised to review this Privacy Policy periodically for any changes.
             </p>
           </div>
 
